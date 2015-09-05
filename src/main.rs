@@ -141,6 +141,8 @@ impl Monitor {
         let mut a = 0.0;
         let mut c = 0.0;
 
+        // For optimization we can keep this values
+        // And update them on push and pop
         for item in &self.data {
             count += 1.0;
             a += (item.epoch * item.requests) as f64;
