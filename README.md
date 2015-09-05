@@ -2,11 +2,11 @@ Booking.com is a big website that receives a lot of traffic. This also makes us 
 
 For this task you need to identify the time interval in which Booking.com is under a DDoS attack.
 
-##Input Format
+###Input Format
 
 You’ll have a dataset of time-series data consisting of tuples in an epoch and the number of requests received during that epoch. Within this time-series data there will be multiple attacks when the site is receiving an elevated number of requests.
 
-##Output Format
+###Output Format
 
 You should provide the epoch intervals for when each one of the attacks starts and ends.
 
